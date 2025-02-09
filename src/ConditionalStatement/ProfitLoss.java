@@ -12,13 +12,13 @@ public class ProfitLoss {
             System.out.print("Congrats you gained a profit ");
             System.out.println((sp-cp));
         }
-        else{
-            System.out.println("you have lost an amount of "+(cp-sp));
+        else {
+            System.out.println("you incurred a loss of " + (cp - sp));
         }
         if(cp==sp){
-            System.out.println("You have neither gained not lost in this product");
+            System.out.println("You have neither gained nor lost in this product");
 
-        }
     }
+}
 }
 
