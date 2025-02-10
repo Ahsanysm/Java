@@ -12,7 +12,7 @@ public class AreaPerimeterGreater {
         if(area>perimeter){
             System.out.println("area is greater");
         }
-        if (area==perimeter) {
+        if ((area==perimeter)){
             System.out.println("perimeter is greater than area");
         }
     }
