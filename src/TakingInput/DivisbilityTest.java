@@ -6,6 +6,7 @@ public class DivisbilityTest {
         System.out.println("Enter number :");
         int n=sc.nextInt();
         if(n%5==0&&n%3==0){
+            //we can use n%15=0 also instead of above condition
             System.out.println("Given number is divisible by 5 & 3");
         }
         else
