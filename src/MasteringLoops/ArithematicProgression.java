@@ -8,7 +8,7 @@ public class ArithematicProgression {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter no. of terms you want to print");
         int n=sc.nextInt();
-        for (int i=-1;i<=n;i=i+2)
+        for (int i=1;i<=2*n-1;i=i+2)
             System.out.print(i+",");
     }
 }
