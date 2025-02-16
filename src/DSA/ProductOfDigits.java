@@ -8,9 +8,9 @@ public class ProductOfDigits {
         System.out.println("Enter number");
         int num=sc.nextInt();
         int product = 1;
-        while (num > 0) {
-            int digit = num % 10; // Extract last digit
-            product *= digit; // Multiply with product
+        while (num != 0) {
+            int lastdigit = num % 10; // Extract last digit
+            product *= lastdigit; // Multiply with product
             num /= 10; // Remove last digit
         }
         System.out.println("Product of digits: " + product);
