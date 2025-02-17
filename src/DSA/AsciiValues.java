@@ -6,9 +6,9 @@ while loop
 //import java.util.Scanner;
 public class AsciiValues {
     public static void main(String[] args) {
-        char ch = 'A'; // Start with uppercase A
+        char ch = 'a'; // Start with uppercase A
         System.out.println("Character  ASCII Value");
-        while (ch <= 'Z') {
+        while (ch <= 'z') {
             System.out.println("   " + ch + "           " + (int) ch);
             ch++; // Move to the next character
         }
