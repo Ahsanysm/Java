@@ -9,7 +9,7 @@ public class GP {
         int a = 1, r = 2;
         for (int i = 1; i <n ; i++) {
             System.out.println(a+" ");
-            a *= r;
+            a *= r;//it is a=a*r;
         }
     }
 }
