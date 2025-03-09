@@ -16,7 +16,7 @@ public class StarPyramid {
             }
             for (int j = 1; j <=2*i-1 ; j++) {
                 System.out.print((char)(j+64)+" ");
-              //  System.out.println("*"+" ");
+              //  System.out.println("*"+" "); this will print star pattern
             }
             System.out.println();
         }
