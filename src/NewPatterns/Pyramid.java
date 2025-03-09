@@ -19,7 +19,8 @@ public class Pyramid {
                 System.out.print("*"+" ");
             }
             nsp--;
-            nst+=2;
+            nst+=1;
+           // nst+=2;
             //if we do nst+1; it will print right triangle
             //note the same code will print rhomubus if:
             // we take intially nst=n;and at end of loop no conidtion for loop
