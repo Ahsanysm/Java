@@ -7,7 +7,7 @@ public class Power {
         double a=sc.nextDouble();
         System.out.println(" enter exponent");
         double b=sc.nextDouble();
-        System.out.println(Math.pow(a,b));
+        System.out.println(Math.cbrt(a));
 //        int pow=1;
 //        for (int i = 1; i <=b ; i++) {
 //            pow *= a;
